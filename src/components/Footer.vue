@@ -22,8 +22,6 @@
       </div>
       <div class="column">
         <strong>Latest</strong>
-        <p>The Skynet Robotic Telescope Network operates out of the University of North Carolina at Chapel Hill.</p>
-        <p>Supported by the National Science Foundation, North Carolina Space Grant, and the Mount Cuba Astronomical Foundation</p>
       </div>
       <div class="column">
         <strong>Contact Us</strong>

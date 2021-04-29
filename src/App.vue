@@ -9,17 +9,17 @@
 
 <script lang="ts">
   import { Component, Vue } from "vue-property-decorator";
-  import HelloWorld from "./components/HelloWorld.vue";
-  import Navbar from "./components/Navbar.vue";
-  import Footer from "./components/Footer.vue";
+  import HelloWorld from "@/components/HelloWorld.vue";
+  import Navbar from "@/components/Navbar.vue";
+  import Footer from "@/components/Footer.vue";
 
   @Component({
     components: {
       Navbar,
-      Footer
+      Footer,
     }
   })
-  export default class App extends Vue {}
+  export default class App extends Vue { }
 </script>
 
 <style lang="scss">
@@ -29,8 +29,8 @@
   @import "~buefy/src/scss/buefy";
 
   #app {
-    font-family: "Iosevka Sparkle", "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 18px;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: flex;
@@ -39,6 +39,12 @@
   }
   #not-footer {
     flex: 1 0 auto;
+    min-height: 100vh;
+    background-image: url("./assets/cerro-tololo.png");
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
   }
   #footer {
     flex-shrink: 0;
